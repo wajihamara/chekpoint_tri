@@ -1,0 +1,27 @@
+PROCEDURE trie(t)
+VAR
+i,j,n:integer
+
+
+BEGIN
+for i from 2 to n 
+a:=t[i];
+j:=I;
+while (j>1) et (t[j-1]>a) do 
+t[j]:=t[j-1];
+j:=j-1;
+end while
+t[j]:=a;
+end for
+
+    
+
+END 
+
+ALGORITHM TRI INSERTION
+VAR
+    T:array of integer[5]
+BEGIN
+    t={7,6,5,4,2}
+    trie(t)
+END
